@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838AA5F81E986698003B89D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838AA5F71E986698003B89D1 /* AppDelegate.swift */; };
+		838AA5FA1E986698003B89D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838AA5F91E986698003B89D1 /* ViewController.swift */; };
+		838AA5FD1E986699003B89D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838AA5FB1E986699003B89D1 /* Main.storyboard */; };
+		838AA5FF1E986699003B89D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838AA5FE1E986699003B89D1 /* Assets.xcassets */; };
+		838AA6021E98669A003B89D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838AA6001E98669A003B89D1 /* LaunchScreen.storyboard */; };
+		838AA60D1E98669D003B89D1 /* Lob_LockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838AA60C1E98669D003B89D1 /* Lob_LockTests.swift */; };
+		838AA6181E98669D003B89D1 /* Lob_LockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838AA6171E98669D003B89D1 /* Lob_LockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		838AA6091E98669D003B89D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838AA5EC1E986698003B89D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838AA5F31E986698003B89D1;
+			remoteInfo = "Lob-Lock";
+		};
+		838AA6141E98669D003B89D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838AA5EC1E986698003B89D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838AA5F31E986698003B89D1;
+			remoteInfo = "Lob-Lock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		838AA5F41E986698003B89D1 /* Lob-Lock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lob-Lock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838AA5F71E986698003B89D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		838AA5F91E986698003B89D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		838AA5FC1E986699003B89D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		838AA5FE1E986699003B89D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		838AA6011E98669A003B89D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838AA6031E98669A003B89D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838AA6081E98669D003B89D1 /* Lob-LockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lob-LockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838AA60C1E98669D003B89D1 /* Lob_LockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lob_LockTests.swift; sourceTree = "<group>"; };
+		838AA60E1E98669D003B89D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838AA6131E98669D003B89D1 /* Lob-LockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lob-LockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838AA6171E98669D003B89D1 /* Lob_LockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lob_LockUITests.swift; sourceTree = "<group>"; };
+		838AA6191E98669D003B89D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838AA5F11E986698003B89D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AA6051E98669D003B89D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AA6101E98669D003B89D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838AA5EB1E986698003B89D1 = {
+			isa = PBXGroup;
+			children = (
+				838AA5F61E986698003B89D1 /* Lob-Lock */,
+				838AA60B1E98669D003B89D1 /* Lob-LockTests */,
+				838AA6161E98669D003B89D1 /* Lob-LockUITests */,
+				838AA5F51E986698003B89D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		838AA5F51E986698003B89D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838AA5F41E986698003B89D1 /* Lob-Lock.app */,
+				838AA6081E98669D003B89D1 /* Lob-LockTests.xctest */,
+				838AA6131E98669D003B89D1 /* Lob-LockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838AA5F61E986698003B89D1 /* Lob-Lock */ = {
+			isa = PBXGroup;
+			children = (
+				838AA5F71E986698003B89D1 /* AppDelegate.swift */,
+				838AA5F91E986698003B89D1 /* ViewController.swift */,
+				838AA5FB1E986699003B89D1 /* Main.storyboard */,
+				838AA5FE1E986699003B89D1 /* Assets.xcassets */,
+				838AA6001E98669A003B89D1 /* LaunchScreen.storyboard */,
+				838AA6031E98669A003B89D1 /* Info.plist */,
+			);
+			path = "Lob-Lock";
+			sourceTree = "<group>";
+		};
+		838AA60B1E98669D003B89D1 /* Lob-LockTests */ = {
+			isa = PBXGroup;
+			children = (
+				838AA60C1E98669D003B89D1 /* Lob_LockTests.swift */,
+				838AA60E1E98669D003B89D1 /* Info.plist */,
+			);
+			path = "Lob-LockTests";
+			sourceTree = "<group>";
+		};
+		838AA6161E98669D003B89D1 /* Lob-LockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838AA6171E98669D003B89D1 /* Lob_LockUITests.swift */,
+				838AA6191E98669D003B89D1 /* Info.plist */,
+			);
+			path = "Lob-LockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838AA5F31E986698003B89D1 /* Lob-Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838AA61C1E98669D003B89D1 /* Build configuration list for PBXNativeTarget "Lob-Lock" */;
+			buildPhases = (
+				838AA5F01E986698003B89D1 /* Sources */,
+				838AA5F11E986698003B89D1 /* Frameworks */,
+				838AA5F21E986698003B89D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lob-Lock";
+			productName = "Lob-Lock";
+			productReference = 838AA5F41E986698003B89D1 /* Lob-Lock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		838AA6071E98669D003B89D1 /* Lob-LockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838AA61F1E98669E003B89D1 /* Build configuration list for PBXNativeTarget "Lob-LockTests" */;
+			buildPhases = (
+				838AA6041E98669D003B89D1 /* Sources */,
+				838AA6051E98669D003B89D1 /* Frameworks */,
+				838AA6061E98669D003B89D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838AA60A1E98669D003B89D1 /* PBXTargetDependency */,
+			);
+			name = "Lob-LockTests";
+			productName = "Lob-LockTests";
+			productReference = 838AA6081E98669D003B89D1 /* Lob-LockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		838AA6121E98669D003B89D1 /* Lob-LockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838AA6221E98669E003B89D1 /* Build configuration list for PBXNativeTarget "Lob-LockUITests" */;
+			buildPhases = (
+				838AA60F1E98669D003B89D1 /* Sources */,
+				838AA6101E98669D003B89D1 /* Frameworks */,
+				838AA6111E98669D003B89D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838AA6151E98669D003B89D1 /* PBXTargetDependency */,
+			);
+			name = "Lob-LockUITests";
+			productName = "Lob-LockUITests";
+			productReference = 838AA6131E98669D003B89D1 /* Lob-LockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838AA5EC1E986698003B89D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lobster Lock LTD";
+				TargetAttributes = {
+					838AA5F31E986698003B89D1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = EB9H298LU5;
+						ProvisioningStyle = Automatic;
+					};
+					838AA6071E98669D003B89D1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = EB9H298LU5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 838AA5F31E986698003B89D1;
+					};
+					838AA6121E98669D003B89D1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = EB9H298LU5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 838AA5F31E986698003B89D1;
+					};
+				};
+			};
+			buildConfigurationList = 838AA5EF1E986698003B89D1 /* Build configuration list for PBXProject "Lob-Lock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838AA5EB1E986698003B89D1;
+			productRefGroup = 838AA5F51E986698003B89D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838AA5F31E986698003B89D1 /* Lob-Lock */,
+				838AA6071E98669D003B89D1 /* Lob-LockTests */,
+				838AA6121E98669D003B89D1 /* Lob-LockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838AA5F21E986698003B89D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AA6021E98669A003B89D1 /* LaunchScreen.storyboard in Resources */,
+				838AA5FF1E986699003B89D1 /* Assets.xcassets in Resources */,
+				838AA5FD1E986699003B89D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AA6061E98669D003B89D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AA6111E98669D003B89D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838AA5F01E986698003B89D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AA5FA1E986698003B89D1 /* ViewController.swift in Sources */,
+				838AA5F81E986698003B89D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AA6041E98669D003B89D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AA60D1E98669D003B89D1 /* Lob_LockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AA60F1E98669D003B89D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AA6181E98669D003B89D1 /* Lob_LockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		838AA60A1E98669D003B89D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838AA5F31E986698003B89D1 /* Lob-Lock */;
+			targetProxy = 838AA6091E98669D003B89D1 /* PBXContainerItemProxy */;
+		};
+		838AA6151E98669D003B89D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838AA5F31E986698003B89D1 /* Lob-Lock */;
+			targetProxy = 838AA6141E98669D003B89D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		838AA5FB1E986699003B89D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838AA5FC1E986699003B89D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		838AA6001E98669A003B89D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838AA6011E98669A003B89D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838AA61A1E98669D003B89D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		838AA61B1E98669D003B89D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838AA61D1E98669D003B89D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EB9H298LU5;
+				INFOPLIST_FILE = "Lob-Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lobster-Lock.Lob-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		838AA61E1E98669D003B89D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EB9H298LU5;
+				INFOPLIST_FILE = "Lob-Lock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lobster-Lock.Lob-Lock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		838AA6201E98669E003B89D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EB9H298LU5;
+				INFOPLIST_FILE = "Lob-LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lobster-Lock.Lob-LockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lob-Lock.app/Lob-Lock";
+			};
+			name = Debug;
+		};
+		838AA6211E98669E003B89D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EB9H298LU5;
+				INFOPLIST_FILE = "Lob-LockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lobster-Lock.Lob-LockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lob-Lock.app/Lob-Lock";
+			};
+			name = Release;
+		};
+		838AA6231E98669E003B89D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EB9H298LU5;
+				INFOPLIST_FILE = "Lob-LockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lobster-Lock.Lob-LockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lob-Lock";
+			};
+			name = Debug;
+		};
+		838AA6241E98669E003B89D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EB9H298LU5;
+				INFOPLIST_FILE = "Lob-LockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lobster-Lock.Lob-LockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Lob-Lock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838AA5EF1E986698003B89D1 /* Build configuration list for PBXProject "Lob-Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AA61A1E98669D003B89D1 /* Debug */,
+				838AA61B1E98669D003B89D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838AA61C1E98669D003B89D1 /* Build configuration list for PBXNativeTarget "Lob-Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AA61D1E98669D003B89D1 /* Debug */,
+				838AA61E1E98669D003B89D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838AA61F1E98669E003B89D1 /* Build configuration list for PBXNativeTarget "Lob-LockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AA6201E98669E003B89D1 /* Debug */,
+				838AA6211E98669E003B89D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838AA6221E98669E003B89D1 /* Build configuration list for PBXNativeTarget "Lob-LockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AA6231E98669E003B89D1 /* Debug */,
+				838AA6241E98669E003B89D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838AA5EC1E986698003B89D1 /* Project object */;
+}
